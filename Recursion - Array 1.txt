@@ -1,0 +1,27 @@
+class Recursion{
+    public int Rec(int []a,int i,int find,int size){
+      
+       if(a[i]==find)
+       {
+           return i;
+       }
+       if(i<a.length){
+           return -1;
+       }
+        
+    else{
+        return Rec(a,i,find,size);
+       }
+    }
+}
+class Main {
+    public static void main(String[] args) {
+        
+        int []arr ={2,5,23,6,3,4,5,9};
+        
+        int size= arr.length;
+        Recursion rs= new Recursion();
+        int x= rs.Rec(arr,0,239,size);
+        System.out.println("Index is:  "+ x);
+    }
+}
