@@ -1,10 +1,11 @@
 class Recursion{
     public int Rec(int []a,int i){
-      
+
+//Base case to stop the further execution
        if(i>=a.length){
            return 1;
        }
-        
+//call further same function        
     else{
         int x=a[i];
         i++;
