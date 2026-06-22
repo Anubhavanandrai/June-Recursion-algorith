@@ -1,0 +1,25 @@
+class Recursion{
+    public int Rec(int []a,int i){
+      
+       if(i>=a.length){
+           return 1;
+       }
+        
+    else{
+        int x=a[i];
+        i++;
+        return  x*Rec(a,i);
+       }
+    }
+}
+class Main {
+    public static void main(String[] args) {
+        
+        int []arr ={2,5,23,6,3,4,5,9};
+        
+        int size= arr.length;
+        Recursion rs= new Recursion();
+        int x= rs.Rec(arr,0);
+        System.out.println("Multiply of each element is :  "+ x);
+    }
+}
