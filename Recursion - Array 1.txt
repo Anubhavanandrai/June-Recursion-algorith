@@ -1,5 +1,5 @@
 class Recursion{
-    public int Rec(int []a,int i,int find,int size){
+    public int Rec(int []a,int i,int find){
       
        if(a[i]==find)
        {
@@ -10,7 +10,7 @@ class Recursion{
        }
         
     else{
-        return Rec(a,i,find,size);
+        return Rec(a,i,find);
        }
     }
 }
