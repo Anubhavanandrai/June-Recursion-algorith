@@ -1,4 +1,17 @@
-# June-Recursion-algorith
+Here are 20 questions with rising difficulty level and there solution above
+
+Level 1:
+
+1. Print numbers from 1 to N
+2. Print numbers from N to 1
+3. Factorial of N
+4. Sum of first N numbers
+5. Sum of digits
+
+
+
+
+
 This repo will contains question on different data structure like array, int, string etc. on which we perform different operations through recursion.
 
 
