@@ -1,6 +1,6 @@
 public class Main {
 
-    public static boolean maxArray(int[] arr, int start, int end) {
+    public static boolean AllPositive(int[] arr, int start, int end) {
 
         // Base case
         if (start == end && arr[start]>0) {
@@ -13,8 +13,8 @@ public class Main {
         int mid = (start + end) / 2;
 
         // Recursive calls
-       boolean x= maxArray(arr, start, mid);
-       boolean y =  maxArray(arr, mid + 1, end);
+       boolean x= AllPositive(arr, start, mid);
+       boolean y =  AllPositive(arr, mid + 1, end);
        
        if (x &&y ==true)
        {
@@ -30,7 +30,7 @@ public class Main {
 
         int[] arr = {3, 7, -5, 1, 8};
 
-        boolean result = maxArray(arr, 0, arr.length - 1);
+        boolean result = AllPositive(arr, 0, arr.length - 1);
 
         System.out.println("Maximum = " + result);
     }
