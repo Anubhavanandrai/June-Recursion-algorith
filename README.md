@@ -12,9 +12,10 @@ Level 2:
 
 6. Count digits
 7. Reverse a String
-8. Check Palindrome
+8. All positive or not
 9. Power of a Number
 10. Fibonacci Number
+11. Check Palindrome
 
 
 
